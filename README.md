@@ -33,4 +33,34 @@ F: Final states indicating successful barcode processing.
 
 ![3 stack Push down Automata for barcode scanner implementation ](Multistackpda.jpg)
 
+# Multi-Tape Turing Machine
+ To enhance the capabilities of our system, we will simulate a multi-tape Turing machine using the PDA. The multi-tape ## Turing machine will use:
+
+ Tape 1: For input search elements.
+ Tape 2: For unique IDs in binary form, separated by a delimiter 'x'.
+## Working of Multi-Tape Turing Machine
+Input on Tape 1: The search element.
+Input on Tape 2: Unique IDs in binary, separated by 'x'.
+## Search Process:
+- The machine searches for the element on Tape 1 within Tape 2.
+- If not found, it returns to the starting point on Tape 1 and searches the next element on Tape 2.
+- Continues until the element is found or all elements are exhausted.
+- If found, the machine reaches a final state.
+- If not found, the machine halts in an intermediate state.
+
+![Multi-tape turning machine for barcode scanner implementation ](https://github.com/Likitha-Picheri/TOC-Barcode_Scanner/blob/74fba99d91925f8c5e86263d24b3f77e8210ab03/MainTuring%20.png)
+
+# Conclusion
+The automated barcode scanning system using a pushdown automaton that simulates a Turing machine provides an efficient and accurate solution for library book tracking and inventory management. The theoretical foundation, coupled with the flexibility, computational power, and scalability of the PDA, makes it an ideal choice for enhancing library operations.
+
+## Documentation
+
+For further details and implementation instructions, please refer to the [Project Report](TEAM-9-CaseStudy_TOC.docx).
+
+## Contact
+
+Feel free to contact me  for any queries or further information.
+
+[Email me ](likithapicheri500k@gmail.com)
+
 
