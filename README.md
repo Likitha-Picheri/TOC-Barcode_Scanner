@@ -31,6 +31,6 @@ q0: Initial state where the PDA starts.
 z: Initial stack symbol.
 F: Final states indicating successful barcode processing.
 
-![3 stack Push down Automata for barcode scanner implementation ](URL_or_relative_path_to_image)
+![3 stack Push down Automata for barcode scanner implementation ](Multistackpda.jpg)
 
 
